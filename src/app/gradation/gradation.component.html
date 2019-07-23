@@ -1,0 +1,7 @@
+<button (click)="selectGradation(GRADIATION.Low)" [disabled]="disabled">Low</button>
+<button (click)="selectGradation(GRADIATION.Medium)" [disabled]="disabled">Medium</button>
+<button (click)="selectGradation(GRADIATION.High)" [disabled]="disabled">High</button>
+
+
+<div *ngIf="disabled"><strong>disabled</strong></div>
+
